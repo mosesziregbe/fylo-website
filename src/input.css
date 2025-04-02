@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  /* Color  */
+  --color-darkBlue: oklch(0.26 0.0277 259.77);
+  --color-darkBlue1: oklch(0.24 0.0249 261.2);
+  --color-darkBlue2: oklch(0.19 0.0331 258.28);
+  --color-darkBlue3: oklch(0.28 0.0358 262.44);
+  --color-accentCyan: oklch(0.84 0.1118 189.29);
+  --color-accentBlue: oklch(0.66 0.1161 231.11);
+  --color-lightRed: oklch(0.66 0.2247 25.86);
+
+  /* Font Family */
+  --font-sans: "Raleway", sans-serif;
+  --font-opensans: "Open Sans", sans-serif;
+
+  /* Background Images */
+  --bg-logo-dark-mode: url("./images/logo-dark-mode.svg");
+  --bg-logo-light-mode: url("./images/logo-light-mode.svg");
+  --bg-curvy-dark-mode: url("./images/bg-curvy-dark-mode.svg");
+  --bg-curvy-light-mode: url("./images/bg-curvy-light-mode.svg");
+}
+
+/* Custom dark mode toggle using class */
+@custom-variant dark (&:where(.dark, .dark *));
+
+.ficon:hover {
+  filter: invert(79%) sepia(61%) saturate(464%) hue-rotate(130deg)
+    brightness(89%) contrast(85%);
+}
+
+@layer base {
+}
+
+@layer components {
+}
