@@ -13,6 +13,6 @@ A secure file storage landing page with responsive design and dark mode support 
 View Live Site: https://fylo-website-mocha.vercel.app/
 
 ## Technologies
-HTML5
-Tailwind CSS
-JavaScript
+- HTML5
+- Tailwind CSS
+- JavaScript
